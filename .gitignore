@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+.vscode/
+.idea/
+
+results/
+*.mp4
+
+.DS_Store
+Thumbs.db
