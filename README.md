@@ -60,8 +60,6 @@ Los tres nombres incluyen la fecha y hora de la ejecucion.
 
 - `Tesis.py`: aplicacion local principal.
 - `mov.mp4`: video de entrada de ejemplo.
-- `Human_Pose_MediaPipe.ipynb`: notebook original de experimentacion.
-- `human_pose_mediapipe.py`: exportacion original de Colab, conservada como referencia.
 - `results/`: salidas generadas; no se versionan.
 
 Los videos generados dentro de `results/` no se versionan. Puedes reemplazar `mov.mp4` o indicar otro archivo mediante `--input`.
