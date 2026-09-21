@@ -30,7 +30,7 @@ python -m pip install -r requirements.txt
 
 ## Uso
 
-Coloca un video llamado `mov.mp4` en la raiz del proyecto y ejecuta:
+El repositorio incluye `mov.mp4` como video de ejemplo. Ejecuta:
 
 ```powershell
 python Tesis.py
@@ -59,8 +59,9 @@ Los tres nombres incluyen la fecha y hora de la ejecucion.
 ## Estructura
 
 - `Tesis.py`: aplicacion local principal.
+- `mov.mp4`: video de entrada de ejemplo.
 - `Human_Pose_MediaPipe.ipynb`: notebook original de experimentacion.
 - `human_pose_mediapipe.py`: exportacion original de Colab, conservada como referencia.
 - `results/`: salidas generadas; no se versionan.
 
-Los archivos de video tampoco se versionan. Cada usuario debe proporcionar su propia entrada.
+Los videos generados dentro de `results/` no se versionan. Puedes reemplazar `mov.mp4` o indicar otro archivo mediante `--input`.

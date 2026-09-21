@@ -15,7 +15,7 @@
 - Directorio de resultados: `results/`
 
 ## Último Cambio
-- Se preparo el proyecto para GitHub: `README.md`, `.gitignore`, dependencias minimas en `requirements.txt` y repositorio Git local sobre la rama `main`. `.venv`, `results/` y videos MP4 quedan excluidos.
+- Se preparo el proyecto para GitHub: `README.md`, `.gitignore`, dependencias minimas en `requirements.txt` y repositorio Git local sobre la rama `main`. Se incluye `mov.mp4` como video de ejemplo; `.venv`, `results/` y los videos generados quedan excluidos.
 
 ## Problemas Conocidos
 - `human_pose_mediapipe.py` conserva comandos de Colab y rutas `/content/drive`.
