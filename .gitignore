@@ -9,5 +9,12 @@ results/
 *.mp4
 !mov.mp4
 
+Dataset Raw/
+Dataset Raw*.zip
+Análisis de movimiento.xlsx
+
+.github/agents/
+docs/agent-state.md
+
 .DS_Store
 Thumbs.db
